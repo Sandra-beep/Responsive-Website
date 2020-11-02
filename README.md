@@ -1,2 +1,2 @@
-# Veckouppgift3-Responsive
+# Responsive
 Min hemsida som jag har skapat inför inlämningsuppgiften / responsiva hemsidan som kommer betygsättas.
