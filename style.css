@@ -1,0 +1,245 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(49, 49, 49);
+    font-weight: 100;
+    width: auto;
+    font-size:1.9vw;
+    line-height: 1.5;
+}
+
+strong 
+{
+    font-weight: 300;
+}
+
+/* Kod för att se borders på allt */
+
+*.voodoo,
+*.header-pic,
+*section#sidhuvud-text, 
+section.header-container, 
+
+h1, 
+section#youtuba, 
+article.youtuba, 
+figure.phone1
+
+#ifyouwant,
+figure.phone2,
+article.ifyouwant,
+
+aside.people,
+article.people,
+
+section#tip,
+.tip-title,
+.tip,
+
+h4,
+footer#livestream,
+.footer-container,
+.footer-left-text, .footer-right-text
+{
+    border: blueviolet 2px solid;
+}
+
+
+
+
+/* Kod som berör header, rubrik och ingress */
+
+.voodoo
+{
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 40%;
+}
+
+.header-pic
+{
+    height: auto;
+    position: absolute;
+    color: black;
+}
+
+section#sidhuvud-text
+{
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+section.header-container
+{
+    width: auto;
+    text-align: right;
+    font-size: 2.4vw;
+}
+
+h1
+{
+    font-size: 5vw;
+    text-align: right;
+    padding-right: 10%;
+}
+
+/* Kod som berör artikeln Youtubability */
+
+section#youtuba
+{
+    position: relative;
+    padding-left:9%;    
+    padding-bottom: 10%;
+}
+
+
+article.youtuba
+{
+    width: 35%;
+    position: absolute;
+    height: auto;
+    padding-top:14%;
+    margin-left:4%;
+}
+
+
+figure.phone1
+{
+    height: auto;
+    position: relative;
+    width: 48%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 50%;
+}
+
+.darkbox
+{
+    height: auto;
+    background-color:rgba(49, 49, 49);
+}
+
+/* Kod som beror artikeln EFTER videon */
+
+#ifyouwant
+{
+    position: relative;
+    height: 80vw;
+    padding-right:10%;
+}
+
+figure.phone2
+{
+    height: auto;
+    position: absolute;
+    width: 55%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+article.ifyouwant
+{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    margin-top:15%;
+    margin-left: 52%;
+    text-align: right;
+
+}
+
+aside.people
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+article.people
+{
+    width: 70%;
+    margin-top:5%;
+}
+
+
+
+/* Kod som berör section Tip of the week */
+
+section#tip
+{
+    text-align: center;
+    height: auto;
+    background-image: url(bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tip
+{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+.tip-title
+{
+    text-align: center;
+    width: auto;
+    font-size: 4vw;
+}
+
+img, video
+{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Kod som berör min footer */
+
+footer#livestream
+{
+    color: whitesmoke;
+    background-color:rgba(49, 49, 49);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h4
+{
+    width: 50vw;
+    font-size: 2.5vw;
+}
+
+.footer-left-text, .footer-right-text
+{
+    width:45%;
+    height: auto;
+}
+
+.footer-right-text
+{
+    text-align: right;
+}
