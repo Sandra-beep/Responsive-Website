@@ -1,2 +1,2 @@
-# Responsive
-Min hemsida som jag har skapat inför inlämningsuppgiften / responsiva hemsidan som kommer betygsättas.
+# About this school project
+My website after managing with responiveness. First attempts with viewwidth and breakpoints.
